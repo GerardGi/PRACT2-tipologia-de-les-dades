@@ -45,10 +45,6 @@ pract2-tipologia/
 │   ├── models.py                            # Pipelines de regressió i clustering
 │   ├── stats.py                             # Shapiro/Levene/Kruskal/Dunn/bootstrap
 │   └── plots.py                             # Helpers de figures (PNG + PDF, DPI=200)
-├── outputs/                                 # Generat (gitignored)
-│   ├── figures/                             # 29 figures PNG + PDF
-│   └── tables/                              # CSVs amb resultats de tests i mètriques
-├── memoria/                                 # Memòria LaTeX (vegeu Overleaf)
 ├── pyproject.toml                           # Dependències (Poetry)
 ├── poetry.lock                              # Versions exactes
 └── README.md
