@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pract2-tipologia"
+version = "0.1.0"
+description = "Pràctica 2 — Tipologia i cicle de vida de les dades (UOC, MSc Data Science). Neteja, EDA i modelat sobre el dataset de pisos.com de la Pràctica 1."
+authors = ["Gerard Ginés Pérez", "Guillem Maluenda"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2"
+numpy = "^1.26"
+scikit-learn = "^1.5"
+scipy = "^1.13"
+statsmodels = "^0.14"
+matplotlib = "^3.9"
+seaborn = "^0.13"
+missingno = "^0.5"
+xgboost = "^2.1"
+shap = "^0.46"
+jupyter = "^1.1"
+geopandas = "^1.0"
+contextily = "^1.6"
+pyarrow = "^24.0.0"
+optuna = "^4.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
